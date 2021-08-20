@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #77b0d9;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background: white;
+  width: 680px;
+  height: 600px;
+}
+h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+label {
+  font-size: 25px;
+  font-family: "Times New Roman";
+}
+.password input,
+.username input {
+  width: 620px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.password input:focus,
+.username input:focus {
+  border: 0;
+  box-shadow: 0 0 0 5px #b9d3fa;
+}
+.group {
+  margin: 30px;
+}
+.remember input {
+  width: 25px;
+  height: 25px;
+}
+.remember a {
+  color: blue;
+  float: right;
+  font-size: 25px;
+}
+button {
+  width: 180px;
+  height: 50px;
+  font-size: 26px;
+  background-color: #3782b8;
+  font-family: "Times New Roman";
+  border: 0;
+  outline: 0;
+  margin-top: 40px;
+  float: right;
+}
+
+.footer {
+  background: white;
+  width: 680px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 260px;
+  margin-left: -30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  margin-left: 10px;
+  font-size: 32px;
+}

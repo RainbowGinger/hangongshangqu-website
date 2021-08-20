@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>payment</title>
+    <link href="payment.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>HAN GONG SHANG QU COSTUME</h1>
+
+      <div class="signin">
+        <a href="signin.html">
+          <span>SIGN IN</span>
+          <img
+            src="hangongshangqu/home/icon/user.svg"
+            style="width: 30px; height: 30px"
+            alt="usericon"
+          />
+        </a>
+
+        <a href="mybag.html">
+          <span id="mybag">MY BAG</span>
+          <img
+            src="hangongshangqu/home/icon/shopping-bags.svg"
+            style="width: 37px; height: 37px; position: relative; top: 9%"
+            alt="bagicon"
+          />
+          <span id="shopping-cart-number">0</span>
+        </a>
+
+        <input type="text" placeholder="search" />
+        <a href="" class="searchbar"
+          ><img src="hangongshangqu/home/icon/search.svg"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="costume.html">COSTUME</a></li>
+          <li><a href="instrument.html">INSTRUMENT</a></li>
+          <li><a href="accessory.html">ACCESSORY</a></li>
+          <li><a href="introduction.html">INTRODUCTION</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 style="text-align: center; font-size: 50px; letter-spacing: 4px">
+      Checkout
+    </h1>
+    <section class="shipping-address">
+      <form class="form1" action="address.php" method="post">
+        <h2>Add a new address</h2>
+        <div>
+          <label>Country/Region</label><br />
+          <select style="margin-top: 6px" name="country">
+            <option selected>United States</option>
+            <option>Canada</option>
+            <option>China</option>
+            <option>Japan</option>
+            <option>Korea</option>
+            <option>Thailand</option>
+            <option>Germany</option>
+            <option>Turkey</option>
+            <option>United Kingdom</option>
+          </select>
+        </div>
+        <div>
+          <label>Full name(First and Last name)</label><br />
+          <input type="text" name="fullname" required />
+        </div>
+        <div>
+          <lable>Phone number</lable><br />
+          <input type="text" name="phonenumber" required />
+        </div>
+        <div>
+          <label>Address</label><br />
+          <input
+            type="text"
+            placeholder="Street address or P.P. Box"
+            name="address1"
+            required
+          /><br />
+          <input
+            type="text"
+            placeholder="Apt, suite, unit, building, floor, etc."
+            style="margin-top: 7px"
+            name="address2"
+          />
+        </div>
+        <div class="citystate">
+          <div>
+            <label>City</label><br />
+            <input type="text" name="city" required />
+          </div>
+          <div>
+            <label>State</label><br />
+            <select name="state">
+              <option selected>Select</option>
+              <option>Alabama</option>
+              <option>California</option>
+              <option>Delaware</option>
+              <option>Florida</option>
+              <option>Illinois</option>
+              <option>Kansas</option>
+              <option>Michigan</option>
+              <option>Texas</option>
+              <option>Oregon</option>
+              <option>Virginia</option>
+            </select>
+          </div>
+          <div>
+            <label>ZIP Code</label><br />
+            <input type="text" name="zipcode" required />
+          </div>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" value="Y" name="remember" />
+          <label>Make this my default address</label>
+        </div>
+        <button type="submit" name="submit">Save this address</button>
+      </form>
+
+      <div class="form2" action="payment.php" method="post">
+        <div class="payment-total">
+          <p>SUBTOTAL: $<span class="subtotal"></span></p>
+          <p>TAX: $<span class="tax"></span></p>
+          <p style="font-weight: bold; font-size: 30px">
+            TOTAL: $<span class="total"></span>
+          </p>
+        </div>
+        <h2>Payment method</h2>
+        <div class="payment-icon">
+          <i class="fab fa-cc-visa fa-2x" style="color:#161c26;"></i>
+          <i class="fab fa-cc-mastercard fa-2x" style="color:#161c26;"></i>
+          <i class="fab fa-cc-jcb fa-2x" style="color:#161c26;"></i>
+          <i class="fab fa-cc-discover fa-2x" style="color:#161c26;"></i>
+        </div>
+
+        <form action="payment" method="POST" style="height:100px;">
+          <script
+              src="//checkout.stripe.com/v2/checkout.js"
+              class="stripe-button"
+              data-key="<%= key %>"
+              data-amount="6599"
+              data-currency="usd"
+              data-name="check out"
+          
+              data-size="250px"
+              data-width="500px"
+              data-description="Han gong shang qu product"
+              data-locale="auto" >
+            </script>
+        </form>
+
+    <script src="shoppingcart.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+</html>

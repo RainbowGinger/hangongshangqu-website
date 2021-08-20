@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{margin:0;background-image:
+        url('hangongshangqu/home/background5.png'),url('hangongshangqu/home/background6.png');
+        background-repeat:no-repeat,repeat;background-size:contain,contain;
+        background-position:0 0;}
+        header h1{text-align:center;font-size:50px;font-family:Algerian;word-spacing:15px;}
+        header{height:220px;}
+
+        .signin{width:400px;height:60px;position:absolute;right:40px;top:30px;}
+        .signin input{width:360px;height:44px;font-size:25px;margin-top:8px;}
+        .signin span{font-size:22px;color:black;}
+        ::placeholder{font-size:30px;text-indent:10px;}
+        #mybag{margin-left:120px;}
+        .signin a{text-decoration:none;}
+        .signin a:link,a:visited{color:white;}
+        .signin a:hover,a:active{color:blue;}
+        #shopping-cart-number{display:inline-block;width:18px;height:19px;border-radius:50%;background-color:orange;
+                    position:relative;left:-16px;top:-17px;font-size:17px;text-align:center;}
+        .signin .searchbar img{width:35px;height:35px;display:inline;position:absolute;top:58px;right:60px;}
+
+
+        header li{float:left;margin:40px;font-size:30px;list-style-type:none;}
+        header li:first-child{margin-left:410px;}
+        header li:last-child{margin-right:410px;}
+        header a{text-decoration:none;}
+        header nav a:link, a:visited{color:black;}
+        header nav a:hover, a:active{color:#39517d;}
+
+
+        .product-intro{display:flex;flex-direction:row;margin:40px 150px;}
+        .product-intro .div1{width:8%;}
+        .product-intro .div2{width:40%;}
+        .product-intro .div3{width:40%;}
+        .product-intro .div4{width:15%;border:1px solid #d9c7a9;}
+        .div1 img{width:60px;height:80px;margin:10px 30px;}
+        .div2 img{width:600px;height:800px;margin:10px 60px;;}
+
+
+        .div3 p{font-size:30px;}
+        .div3 label,select{font-size:25px;}
+        .div3 select{border:2px solid #64a6d9;border-radius:10px;outline:0;width:70px;}
+        .div3 a{text-decoration:none;font-size:24px;color:#1f498c;margin-left:13px;cursor:pointer;}
+        .div3 .color{font-size:25px;}
+        .div3 div{margin-bottom:40px;}
+        .div3 ul{font-size:25px;margin-top:50px;}
+        .div3 .qty {font-size:25px;margin-top:70px;}
+        .div3 .qty input{height:30px;width:100px;font-size:25px;}
+        .div3 .qty input{autofocus:true;margin-top:15px;}
+        .div3 button{width:250px;height:50px;font-size:30px;background-color:#5b87cf;
+                margin:40px;outline:0;}
+        .div3 #sizechart-image{display:none;position:relative;top:-150px;left:-100px;}
+        .div3 #sizechart-image img{width:700px;height:770px;z-index:1;color:white;}
+        .div3 #sizechart-image button{background-color:transparent;font-size:25px;text-align:center;border:0;outline:0;
+                cursor:pointer;float:right;position:relative;top:100px;left:100px;}
+
+
+        .div4 p{font-size:25px;font-family:Algerian; color:red;text-align:center;}
+        .div4 img{width:230px;height:230px;}
+        .div4 a{margin:20px;text-decoration:none;}
+        .div4 span{position:relative;left:50px;top:-50px;font-size:20px;}
+        .div4 button{cursor:pointer;font-size:22px;outline:0;border:0;margin-top:10px;margin-left:25px;background-color:transparent;}
+
+
+        .description{background-image:url(hangongshangqu/home/background102.jpg);background-repeat:;}
+        .description h1{font-size:80px;text-align:center;font-family:Gabriola;}
+        .description img{width:1200px;margin-left:550px;}
+
+
+        footer{background-color:#33312f;margin-top:100px;height:500px;color:white;
+              display:flex;flex-direction:row;flex-wrap:wrap;padding-left:300px;padding-top:50px;}
+        footer div{float:left;width:450px;}
+        footer h1{font-size:28px;}
+        footer a{font-size:20px;text-decoration:none;color:white;}
+        footer a:link,footer a:visited{color:white;}
+        foot a:hover,footer a:active{color:blue;}
+        footer input{width:340px;height:38px;font-size:26px;}
+        input.submit{width:87px;height:44px;font-size:19px;position:relative;top:-4px;}
+        ::placeholder{font-size:25px;}
+
+        .icon{width:700px;margin-left:50%;}
+        .icon img{width:38px;height:33px;margin:15px;}
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>HAN GONG SHANG QU COSTUME</h1>
+
+        <div class="signin">
+            <a href="signin.html">
+                <span>SIGN IN</span>
+                <img src="hangongshangqu/home/icon/user.svg" style="width:30px;height:30px;" alt="usericon">
+            </a>
+
+            <a href="mybag.html">
+                <span id="mybag">MY BAG</span>
+                <img src="hangongshangqu/home/icon/shopping-bags.svg" style="width:37px;height:37px;position:relative;top:9%;" alt="bagicon">
+                <span id="shopping-cart-number">0</span>
+            </a>
+
+            <input type="text" placeholder="search">
+            <a href="" class="searchbar"><img src="hangongshangqu/home/icon/search.svg"></a>
+        </div>
+         <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="costume.html">COSTUME</a></li>
+                <li><a href="instrument.html">INSTRUMENT</a></li>
+                <li><a href="accessory.html">ACCESSORY</a></li>
+                <li><a href="introduction.html">INTRODUCTION</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-intro">
+        <ul class="div1" style="list-style-type:none;">
+            <li><img src="hangongshangqu/costume/tang/product3/tang3-1.jpg"></li>
+            <li><img src="hangongshangqu/costume/tang/product3/tang3-2.jpg"></li>
+            <li><img src="hangongshangqu/costume/tang/product3/tang3-3.jpg"></li>
+            <li><img src="hangongshangqu/costume/tang/product3/tang3-4.jpg"></li>
+            <li><img src="hangongshangqu/costume/tang/product3/tang3-5.jpg"></li>
+        </ul>
+
+        <div class="div2">
+            <p><img class="big-image" src="hangongshangqu//costume/tang/product3/tang3-1.jpg"></p>
+        </div>
+
+        <div class="div3">
+            <p>Han clothing women's original Cherry Blossom super fairy elegant, ancient style, waist length Ru skirt</p>
+            <p>Price: <span style="color:red;">$</span><span style="margin:5px;color:red">69.99</span></p>
+            <div>
+                <label>Size: </label>
+                <select>
+                    <option>S</option>
+                    <option selected>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <a>Size Chart</a>
+                <div id="sizechart-image" >
+                    <button>X</button>
+                    <img src="hangongshangqu/home/sizechart.png">
+                </div>
+            </div>
+            <div>
+                <span class="color">Color: Red<br>Brand: Yulin</span>
+            </div>
+            <ul>
+                <li>Nice Chinese hanfu</li>
+                <li>20% off</li>
+                <li>Different color</li>
+                <li>Different size</li>
+            </ul>
+            <div class="qty">
+                <lable>In Stock <span>100</span> Pieces.</lable><br>
+                <span>Qty: </span><input type="number" autofocus value="1"><br>
+                <button class="add-to-cart">Add to Cart</button><button>Buy Now</button>
+            </div>
+        </div>
+        <div class="div4">
+            <p>Recommend</p>
+            <a href=""><img src="hangongshangqu/costume/han/product1/han1-2.jpg"><span>$69.99</span></a>
+            <a href=""><img src="hangongshangqu/costume/tang/product5/tang5-1.jpg"><span>$59.99</span></a>
+            <a href=""><img src="hangongshangqu/costume/han/product3/han3-1.jpg"><span>$39.99</span></a>
+            <button><</button><button>></button>
+        </div>
+    </section>
+
+    <section class="description">
+        <h1>Product Description</h1>
+        <img src="hangongshangqu//costume/tang/product3/tang3-4.jpg">
+        <img src="hangongshangqu//costume/tang/product3/tang3-2.jpg">
+        <img src="hangongshangqu//costume/tang/product3/tang3-3.jpg">
+        <img src="hangongshangqu//costume/tang/product3/tang3-1.jpg">
+        <img src="hangongshangqu//costume/tang/product3/tang3-5.jpg">
+    </section>
+
+    <footer>
+        <div>
+            <h1>CONTACT US</h1>
+            <a href=""><P>Email Us</P></a>
+            <a href=""><p>1-415-352-9879</p></a>
+        </div>
+        <div>
+            <h1>CUSTOMER CARE</h1>
+            <a href=""><P>COVID-10 Information</P></a>
+            <a href=""><p>Find a Store</p></a>
+            <a href=""><p>Order Status</p></a>
+            <a href=""><p>FAQ</p></a>
+            <a href=""><p>Shipping and Returns</p></a>
+            <a href=""><p>Cookie Settings</p></a>
+        </div>
+        <div>
+            <h1>ABOUT US</h1>
+            <a href=""><P>Careers</P></a>
+            <a href=""><p>Rewards</p></a>
+        </div>
+        <div>
+            <h1>EMAIL SIGN UP</h1>
+            <input type="text" placeholder="Input Email"><input class='submit' type="submit" value="SUBMIT">
+        </div>
+        <div class="icon">
+            <a href="#"><img src="hangongshangqu/home/icon/facebook.svg" alt="facebook icon"></a>
+            <a href="#"><img src="hangongshangqu/home/icon/twitter.svg" alt="twitter icon"></a>
+            <a href="#"><img src="hangongshangqu/home/icon/instagram.svg" alt="instagram icon"></a>
+            <a href="#"><img src="hangongshangqu/home/icon/app-store.svg" alt="apple store icon"></a>
+        </div>
+    </footer>
+<!--    <script src="shoppingcart.js"></script>-->
+    <script src="productdetail.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="costume3.js"></script>
+</body>
+</html>

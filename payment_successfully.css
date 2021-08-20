@@ -1,0 +1,8 @@
+body{background-image:
+    url('hangongshangqu/home/background102.jpg');
+    background-size:cover;}
+
+div{text-align:center;margin-top:500px;}
+div h1{font-size:48px;color:#bd489c;margin:80px;}
+div p{font-size:40px;margin-bottom:80px;}
+div a{color:red;font-size:35px;}

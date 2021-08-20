@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  background-image: url("hangongshangqu/home/background5.png"),
+    url("hangongshangqu/home/background6.png");
+  background-repeat: no-repeat, repeat;
+  background-size: contain, contain;
+  background-position: 0 0;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Algerian;
+  word-spacing: 15px;
+}
+header {
+  height: 220px;
+}
+
+.signin {
+  width: 400px;
+  height: 60px;
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+.signin input {
+  width: 360px;
+  height: 44px;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.signin span {
+  font-size: 22px;
+  color: black;
+}
+::placeholder {
+  font-size: 30px;
+  text-indent: 10px;
+}
+#mybag {
+  margin-left: 120px;
+}
+.signin a {
+  text-decoration: none;
+}
+.signin a:link,
+a:visited {
+  color: white;
+}
+.signin a:hover,
+a:active {
+  color: blue;
+}
+#shopping-cart-number {
+  display: inline-block;
+  width: 18px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: orange;
+  position: relative;
+  left: -16px;
+  top: -17px;
+  font-size: 17px;
+  text-align: center;
+}
+.signin .searchbar img {
+  width: 35px;
+  height: 35px;
+  display: inline;
+  position: absolute;
+  top: 58px;
+  right: 60px;
+}
+
+header li {
+  float: left;
+  margin: 40px;
+  font-size: 30px;
+  list-style-type: none;
+}
+header li:first-child {
+  margin-left: 410px;
+}
+header li:last-child {
+  margin-right: 410px;
+}
+header a {
+  text-decoration: none;
+}
+header nav a:link,
+a:visited {
+  color: black;
+}
+header nav a:hover,
+a:active {
+  color: #39517d;
+}
+
+section.shipping-address {
+  display: flex;
+  margin: 60px 500px;
+  width: auto;
+  position: relative;
+  top: -30px;
+}
+section h2 {
+  font-size: 35px;
+}
+section form {
+  padding-left: 20px;
+  margin-right: 15px;
+}
+.shipping-address .form1 {
+  width: 1000px;
+  height: 900px;
+  border: 2px solid #bdaf97;
+}
+.shipping-address .form1 .citystate input {
+  width: 200px;
+}
+.shipping-address .form1 .citystate {
+  display: flex;
+}
+.shipping-address .form1 .citystate > div {
+  margin-right: 20px;
+}
+.shipping-address .form1 .checkbox input {
+  width: 30px;
+  position: relative;
+  top: 3px;
+}
+.shipping-address .form1 button {
+  width: 220px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 80px;
+  background-color: #80abcf;
+  outline: 0;
+  border: 0;
+  border-radius: 20px;
+}
+.shipping-address h1 {
+  font-size: 40px;
+}
+.shipping-address .form2 {
+  width: 1000px;
+  height: 900px;
+  background-color: #80abcf;
+  padding:15px 15px;
+}
+.shipping-address .form2 .payment-total {
+  background-color: #7eb6cf;
+  margin-right: 20px;
+  padding:8px 8px;
+}
+.shipping-address div {
+  font-size: 25px;
+}
+::placeholder {
+  font-size: 20px;
+}
+.shipping-address input {
+  width: 400px;
+  height: 30px;
+  font-size: 25px;
+  outline: 0;
+}
+.shipping-address select {
+  height: 36px;
+  background-color: #bcc5cc;
+  font-size: 20px;
+}
+form > div {
+  margin-top: 20px;
+}
+.shipping-address input.expire-date {
+  width: 185px;
+  margin-right: 10px;
+}
+.shipping-address .form2 .checkbox1 input {
+  width: 30px;
+  position: relative;
+  top: 3px;
+}
+.form2 button {
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 45px;
+  background-color: #1961d4;
+  outline: 0;
+  border: 0;
+  border-radius: 20px;
+}
+.form2 .button1 {
+  width: 170px;
+  height: 50px;
+  margin-right: 30px;
+}
+.form2 .button2 {
+  width: 300px;
+  height: 50px;
+}
+.form2 img {
+  width: 45px;
+  height: 50px;
+  margin: 3px;
+  position: relative;
+  top: -12px;
+}

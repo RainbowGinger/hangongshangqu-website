@@ -1,0 +1,53 @@
+body{margin:0;background-image:url('hangongshangqu/home/background5.jpg'),url('hangongshangqu/home/background6.png');
+       background-size:2500px 250px;background-repeat:no-repeat,repeat;}
+header h1{text-align:center;font-size:50px;font-family:Algerian;word-spacing:15px;}
+header{height:220px;}
+
+.signin{width:400px;height:60px;position:absolute;right:40px;top:30px;}
+.signin input{width:360px;height:44px;font-size:25px;margin-top:8px;}
+.signin span{font-size:22px;color:black;}
+::placeholder{font-size:30px;text-indent:10px;}
+#mybag{margin-left:120px;}
+.signin a{text-decoration:none;}
+.signin a:link,a:visited{color:white;}
+.signin a:hover,a:active{color:blue;}
+#shopping-cart-number{display:inline-block;width:18px;height:19px;border-radius:50%;background-color:orange;
+            position:relative;left:-16px;top:-17px;font-size:17px;text-align:center;}
+.signin .searchbar img{width:35px;height:35px;display:inline;position:absolute;top:58px;right:60px;}
+
+
+header li{float:left;margin:40px;font-size:30px;list-style-type:none;}
+header li:first-child{margin-left:410px;}
+header li:last-child{margin-right:410px;}
+header a{text-decoration:none;}
+header nav a:link, a:visited{color:black;}
+header nav a:hover, a:active{color:#39517d;}
+
+aside li{list-style-type:none;font-size:26px;margin:60px -13px;width:220px;height:100px;
+         border:1px ridge #a8b9ba;border-radius:50%;;text-align:center;padding-top:83px;
+         background-color:#d2d3d4;}
+
+aside{float:left;width:250px;height:500px;margin-left:10px;}
+aside li a{cursor:pointer;}
+aside li:hover{background-color:#b1c1cc;}
+aside a{text-decoration:none;}
+aside a:link, a:visited{black;}
+aside a:active, a:hover{red;}
+
+
+section {margin:40px 20px 50px 330px;border-radius:100px;}
+section video{border-radius:50px;width:1800px;}
+
+article{text-indent:60px;font-size:30px;margin-left:330px;margin-right:100px;line-height:50px;}
+
+footer{background-color:#33312f;margin-top:100px;height:500px;color:white;
+      display:flex;flex-direction:row;flex-wrap:wrap;padding-left:300px;padding-top:50px;}
+footer div{float:left;width:450px;}
+footer h1{font-size:28px;}
+footer p{font-size:20px;}
+footer input{width:340px;height:38px;font-size:26px;}
+input.submit{width:87px;height:44px;font-size:19px;position:relative;top:-4px;}
+::placeholder{font-size:25px;}
+
+.icon{width:700px;margin-left:50%;}
+.icon img{width:38px;height:33px;margin:15px;}

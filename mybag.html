@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="mybag.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HAN GONG SHANG QU COSTUME</h1>
+
+      <div class="signin">
+        <a href="signin.html">
+          <span>SIGN IN</span>
+          <img
+            src="hangongshangqu/home/icon/user.svg"
+            style="width: 30px; height: 30px"
+            alt="usericon"
+          />
+        </a>
+
+        <a href="mybag.html">
+          <span id="mybag">MY BAG</span>
+          <img
+            src="hangongshangqu/home/icon/shopping-bags.svg"
+            style="width: 37px; height: 37px; position: relative; top: 9%"
+            alt="bagicon"
+          />
+          <span id="shopping-cart-number">0</span>
+        </a>
+
+        <input type="text" placeholder="search" />
+        <a href="" class="searchbar"
+          ><img src="hangongshangqu/home/icon/search.svg"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="costume.html">COSTUME</a></li>
+          <li><a href="instrument.html">INSTRUMENT</a></li>
+          <li><a href="accessory.html">ACCESSORY</a></li>
+          <li><a href="introduction.html">INTRODUCTION</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1
+      style="
+        text-align: center;
+        font-size: 50px;
+        color: #2a4570;
+        text-shadow: 2px 2px 2px #5577ad;
+      "
+    >
+      Shopping Cart
+    </h1>
+    <div class="container-products">
+      <div class="product-header">
+        <h2 class="product-title">PRODUCT</h2>
+        <h2 class="price sm-hide">PRICE</h2>
+        <h2 class="quantity">QUANTITY</h2>
+        <h2 class="total">TOTAL</h2>
+      </div>
+      <div class="products"></div>
+
+      <button onclick="document.location='payment.html'">CHECKOUT</button>
+    </div>
+    <script src="shoppingcart.js"></script>
+    <!--    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>-->
+  </body>
+</html>

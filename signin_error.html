@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SINGIN</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <a href="home.html"><img src="hangongshangqu/home/icon/logo.svg" style="width:300px;height:230px;"></a>
+    <form action="signin.php" method="POST" class="form">
+        <h3>Sign in to your account</h3>
+
+        <p style="color:red;text-align:center;font-size:30px;background: #F2DEDE;
+        color: #A94442;width:70%;margin:0px auto;padding:0px;height:40px;position:relative;top:-15px;">
+            Incorrect username or password
+        </p>
+
+        <div class="group username" style="margin-top:10px;">
+            <label for="username">Enter Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="email" required>
+        </div>
+
+        <div class="group password">
+            <label for="pw">Enter Password:</label><br>
+            <input type="password" id="pw" name="password" required>
+        </div>
+
+        <div  class="group remember">
+            <input type="checkbox" id="check" name="rememberme" value="Y">
+            <label for="check">Remember Me</label>
+            <a href="">Forgot password?</a><br>
+            <button type="submit" name="submit">Sign In</button>
+        <div>
+    </form>
+    <div class="footer">
+        <span>New User?<a href="register.html">Create an account.</a></span>
+    </div>
+
+
+
+</body>
+</html>
