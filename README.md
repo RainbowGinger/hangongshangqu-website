@@ -1,7 +1,6 @@
 "hangongshangqu" website is a ecommerce website which sell Chinese ancient costume, accessories, instrument, and introduction of history.
 The website was built with html, css, javascript.
 
-As this project has big amount data of images and videos, so it's unable to upload them.
 
 <img width="1094" alt="1629500910" src="https://user-images.githubusercontent.com/65000038/130301807-eca40c25-1f7f-4b09-8598-db0f8f8fe28b.png">
 <img width="959" alt="1629501144(1)" src="https://user-images.githubusercontent.com/65000038/130301887-0107b0c7-72b2-4782-9ee8-7e3943966471.png">
